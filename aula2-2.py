@@ -30,5 +30,5 @@ def verificar_positivo(numero):
         return f"Negativo '{numero}' é negativo"
     
 verificar_numero = int(input("Digite um numero para saber se ele é positivo"))    
-verificar_positivo(verificar_numero)
+print(verificar_positivo(verificar_numero))
 
